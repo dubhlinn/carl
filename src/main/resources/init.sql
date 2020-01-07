@@ -9,6 +9,7 @@ CREATE TABLE `carl`.`user`  (
   `username` varchar(20) NOT NULL COMMENT '用户名，唯一',
   `password` varchar(64) NOT NULL COMMENT '密码',
   `real_name` varchar(10) NULL COMMENT '真实姓名',
+  `is_delete` tinyint(4) NOT NULL DEFAULT 0 COMMENT '逻辑删除标识，0-未删除，1-已删除'
   PRIMARY KEY (`id`)
 );
 

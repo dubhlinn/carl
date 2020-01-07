@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * 所有模型类的基类
@@ -21,4 +22,10 @@ public class CommonModel implements Serializable {
      * 0-未删除，1-已删除
      */
     private int isDelete;
+
+    /**
+     * 创建时间
+     * 格式为 yyyy-MM-dd HH:mm:ss
+     */
+    private Date createTime;
 }

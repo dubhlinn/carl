@@ -4,8 +4,9 @@ import cn.monolog.dubhlinn.carl.util.SecurityUtil;
 import org.junit.Test;
 
 /**
+ * 安全工具测试类
  * @author dubhlinn
- * @date
+ * @date 2020-01-07
  */
 public class SecurityUtilTest {
 
